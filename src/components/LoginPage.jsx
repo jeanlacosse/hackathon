@@ -13,8 +13,6 @@ function LoginPage({
         evt.preventDefault();
         console.log(employeeId);
         getEmployeeInfo(employeeId);
-    
-        
     }
     
     

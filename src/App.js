@@ -37,7 +37,6 @@ function App() {
       .then((response) => {
         console.log('response', response)
         setEmployee(response.data)
-        
       })
       .catch((err) => {
         alert('ERR in the GET employee');
