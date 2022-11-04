@@ -1,5 +1,6 @@
 import '../App.css';
 
+
 function EmployeeItem({
     employee
 }) {
@@ -9,8 +10,8 @@ function EmployeeItem({
         <table>
                 <thead>
                     <tr>
-                        <th className='table'>ID Number</th>
-                        <th className='table'>Name</th>
+                        <th>ID Number</th>
+                        <th>Name</th>
                         <th>Phone number</th>
                         <th>Title</th>
                         <th>Work location</th>
